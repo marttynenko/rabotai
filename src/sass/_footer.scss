@@ -1,0 +1,50 @@
+footer#footer {
+  padding-bottom: 55px;
+  color: $light;
+  @include fz(12);
+
+  a {
+    color: $font;
+
+    &:hover {
+      color: $primary_hover;
+    }
+  }
+}
+.footer {
+  &-line {
+    height: 1px;
+    margin-bottom: 24px;
+    background: #c2c2c2;
+  }
+  &-copy {
+    @include fz(16);
+    margin-bottom: 8px;
+    color: $font;
+
+    &-descr {
+      max-width: 470px;
+    }
+  }
+  &-privacy {
+    margin-bottom: 36px;
+    padding-top: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-copy-descr {
+    margin-bottom: 14px;
+  }
+  .footer-privacy {
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer-made {
+    margin-bottom: 14px;
+  }
+}

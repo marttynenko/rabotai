@@ -1,0 +1,173 @@
+// Colors & BG's ---
+$bgc: #f2f2f2;
+$font: #1D1D1F;
+$font_secondary: #bcbcbc;
+$font_disabled: #BFBFBF;
+$light: #808080;
+$titles: $font;
+
+$primary: #3571E3;
+$primary_hover: #0056AB;
+$primary_active: #0066CC;
+$secondary: #900020;
+$secondary_hover: lighten($secondary, 8%);
+$secondary_active: lighten($secondary, 14%);
+$tertiary: #E0AA5A;
+$tertiary_hover: lighten($tertiary, 12%);
+$tertiary_active: lighten($tertiary, 17%);
+$disabled: #E6E6E6;
+$gray: #91939C;
+$gray_hover: #77a45d;
+
+$gradient: linear-gradient(90deg,#ffba00,#ff9100);
+
+$red: #FF6666;
+$red_hover: darken($red, 10%);
+
+
+$link: $primary;
+$link_hover: $primary_active;
+$link_active: $primary_hover;
+$link_border: $tertiary_hover;
+$link_border_hover: transparent;
+
+$border: #e5e5e5;
+$border_light: #e5e5e5;
+$devider: #d6d6d6;
+
+$invalid: #FF6666;
+$valid: #25a670;
+
+
+
+
+
+// Layouts
+$inner: 1280;
+$gutter: 54px;
+$col_gutter: 12px;
+$block_margin: 0 0 24px;
+
+
+
+
+
+// Typography ---
+$fontsize: 16;
+$weight: 400;
+$basefont: 'Helvetica Neue';
+$sans: 'Source Sans Pro';
+$lh: 1.42;
+$th: (23/14);
+$paragraph_margin: 0px 0px 18px;
+
+// headings
+$headings_font_family: $basefont;
+$headings_margin: 22px 0px 18px;
+$headings_font_weight: 500;
+$headings_color: $titles;
+$headings_text_transform: none;
+$h1: 54;
+$h2: 36;
+$h3: 24;
+$h4: 20;
+$h5: 18;
+$h6: $fontsize;
+
+$block_heading_font_size: 24;
+$block_heading_font_weight: 700;
+
+// article typography
+$article_font_size: 14;
+$article_line_height: (22/$article_font_size);
+$article_paragraph_margin: $paragraph_margin;
+$article_img_margin: $paragraph_margin;
+$article_font_weight: 400;
+
+
+// Buttons & Inputs ---
+$btn_font_size: 16;
+$btn_font_weight: 500;
+$btn_text_transform: none;
+$btn_height: 46px;
+$btn_height_big: 52px;
+$btn_height_mini: 40px;
+$btn_paddings: 0px 35px;
+$btn_border_width: 0;
+$btn_border_color: $primary;
+$btn_border_radius: 8px;
+$btn_color: #FFF;
+
+$input_height: $btn_height;
+$input_paddings: 0px 15px;
+$input_border_radius: 8px;
+$input_bg: #FFF;
+$input_border: #E2E2E2;
+$input_hover: darken($input_border, 10%);
+$input_focus: $primary;
+$input_shadow: #f6f6f6;
+
+$checkbox_size: 23px;
+$checkbox_border_radius: 8px;
+$radio_size: $checkbox_size;
+$jq_border: $input_border;
+$jq_hover: $input_hover;
+$jq_focus: $input_focus;
+
+
+// Breadcrumbs ---
+$bread_font_size: 15;
+$bread_bg: none;
+$bread_color: $light;
+$bread_link_color: $primary;
+$bread_paddings: 0px 0px 15px;
+$bread_margin: 0px 0px 30px;
+
+
+// Pgn
+// $pgn_color: $font;
+// $pgn_font_weight: 400;
+// $pgn_margin: 5px;
+// $pgn_padding: 0px 5px;
+// $pgn_height: 50px;
+// $pgn_bg: #FFF;
+// $pgn_border_radius: 0;
+// $pgn_border: 1px;
+// $pgn_border_active: 1px;
+// $pgn_bg_active: $secondary;
+
+
+// Other ---
+$footer_bg: #2c2c2c;
+$footer_paddings: 54px 0px;
+$footer_color: #7a7a7a;
+$footer_link_color: #7a7a7a; 
+
+$sticker_bg: $primary;
+$sticker_color: #FFF;
+$sticker_height: 24px;
+$sticker_height_mini: 20px;
+$sticker_paddings: 0px 10px;
+$sticker_font_size: 13;
+$sticker_font_weight: 500;
+$sticker_text_transform: none;
+$sticker_border_radius: 2px;
+$sticker_font: $basefont;
+$sticker_font_style: normal;
+
+$shadow: 0px 0px 20px -3px rgba(60, 60, 60, 0.25);
+$shadow_focus: 0px 0px 30px -3px rgba(60, 60, 60, 0.35);
+$shadow_light: 0px 0px 8px -1px rgba(85, 85, 85, 0.1);;
+$beizer: cubic-bezier(.3,.53,.38,.73);
+
+$trn_d: .4s; //transition-delay
+
+
+@mixin fz($f_size) {
+	font-size: $f_size + px;
+	font-size: $f_size/16 + rem;
+}
+
+@mixin ls($lsp) {
+	letter-spacing: $lsp/1000 + em;
+}

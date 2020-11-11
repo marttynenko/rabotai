@@ -1,0 +1,277 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$arrow-left-name: 'arrow-left';
+$arrow-left-x: 0px;
+$arrow-left-y: 237px;
+$arrow-left-offset-x: 0px;
+$arrow-left-offset-y: -237px;
+$arrow-left-width: 16px;
+$arrow-left-height: 25px;
+$arrow-left-total-width: 63px;
+$arrow-left-total-height: 633px;
+$arrow-left-image: '../images/sprite/sprite.png';
+$arrow-left: (0px, 237px, 0px, -237px, 16px, 25px, 63px, 633px, '../images/sprite/sprite.png', 'arrow-left', );
+$arrow-right-name: 'arrow-right';
+$arrow-right-x: 0px;
+$arrow-right-y: 272px;
+$arrow-right-offset-x: 0px;
+$arrow-right-offset-y: -272px;
+$arrow-right-width: 16px;
+$arrow-right-height: 25px;
+$arrow-right-total-width: 63px;
+$arrow-right-total-height: 633px;
+$arrow-right-image: '../images/sprite/sprite.png';
+$arrow-right: (0px, 272px, 0px, -272px, 16px, 25px, 63px, 633px, '../images/sprite/sprite.png', 'arrow-right', );
+$arrow-name: 'arrow';
+$arrow-x: 0px;
+$arrow-y: 582px;
+$arrow-offset-x: 0px;
+$arrow-offset-y: -582px;
+$arrow-width: 63px;
+$arrow-height: 51px;
+$arrow-total-width: 63px;
+$arrow-total-height: 633px;
+$arrow-image: '../images/sprite/sprite.png';
+$arrow: (0px, 582px, 0px, -582px, 63px, 51px, 63px, 633px, '../images/sprite/sprite.png', 'arrow', );
+$check-name: 'check';
+$check-x: 0px;
+$check-y: 307px;
+$check-offset-x: 0px;
+$check-offset-y: -307px;
+$check-width: 25px;
+$check-height: 25px;
+$check-total-width: 63px;
+$check-total-height: 633px;
+$check-image: '../images/sprite/sprite.png';
+$check: (0px, 307px, 0px, -307px, 25px, 25px, 63px, 633px, '../images/sprite/sprite.png', 'check', );
+$f-mail-name: 'f-mail';
+$f-mail-x: 0px;
+$f-mail-y: 144px;
+$f-mail-offset-x: 0px;
+$f-mail-offset-y: -144px;
+$f-mail-width: 21px;
+$f-mail-height: 21px;
+$f-mail-total-width: 63px;
+$f-mail-total-height: 633px;
+$f-mail-image: '../images/sprite/sprite.png';
+$f-mail: (0px, 144px, 0px, -144px, 21px, 21px, 63px, 633px, '../images/sprite/sprite.png', 'f-mail', );
+$f-phone-name: 'f-phone';
+$f-phone-x: 0px;
+$f-phone-y: 175px;
+$f-phone-offset-x: 0px;
+$f-phone-offset-y: -175px;
+$f-phone-width: 21px;
+$f-phone-height: 21px;
+$f-phone-total-width: 63px;
+$f-phone-total-height: 633px;
+$f-phone-image: '../images/sprite/sprite.png';
+$f-phone: (0px, 175px, 0px, -175px, 21px, 21px, 63px, 633px, '../images/sprite/sprite.png', 'f-phone', );
+$f-pin-name: 'f-pin';
+$f-pin-x: 0px;
+$f-pin-y: 206px;
+$f-pin-offset-x: 0px;
+$f-pin-offset-y: -206px;
+$f-pin-width: 15px;
+$f-pin-height: 21px;
+$f-pin-total-width: 63px;
+$f-pin-total-height: 633px;
+$f-pin-image: '../images/sprite/sprite.png';
+$f-pin: (0px, 206px, 0px, -206px, 15px, 21px, 63px, 633px, '../images/sprite/sprite.png', 'f-pin', );
+$facebook-name: 'facebook';
+$facebook-x: 0px;
+$facebook-y: 412px;
+$facebook-offset-x: 0px;
+$facebook-offset-y: -412px;
+$facebook-width: 30px;
+$facebook-height: 30px;
+$facebook-total-width: 63px;
+$facebook-total-height: 633px;
+$facebook-image: '../images/sprite/sprite.png';
+$facebook: (0px, 412px, 0px, -412px, 30px, 30px, 63px, 633px, '../images/sprite/sprite.png', 'facebook', );
+$insta-name: 'insta';
+$insta-x: 0px;
+$insta-y: 452px;
+$insta-offset-x: 0px;
+$insta-offset-y: -452px;
+$insta-width: 30px;
+$insta-height: 30px;
+$insta-total-width: 63px;
+$insta-total-height: 633px;
+$insta-image: '../images/sprite/sprite.png';
+$insta: (0px, 452px, 0px, -452px, 30px, 30px, 63px, 633px, '../images/sprite/sprite.png', 'insta', );
+$play-name: 'play';
+$play-x: 0px;
+$play-y: 532px;
+$play-offset-x: 0px;
+$play-offset-y: -532px;
+$play-width: 40px;
+$play-height: 40px;
+$play-total-width: 63px;
+$play-total-height: 633px;
+$play-image: '../images/sprite/sprite.png';
+$play: (0px, 532px, 0px, -532px, 40px, 40px, 63px, 633px, '../images/sprite/sprite.png', 'play', );
+$searcher-name: 'searcher';
+$searcher-x: 0px;
+$searcher-y: 114px;
+$searcher-offset-x: 0px;
+$searcher-offset-y: -114px;
+$searcher-width: 20px;
+$searcher-height: 20px;
+$searcher-total-width: 63px;
+$searcher-total-height: 633px;
+$searcher-image: '../images/sprite/sprite.png';
+$searcher: (0px, 114px, 0px, -114px, 20px, 20px, 63px, 633px, '../images/sprite/sprite.png', 'searcher', );
+$slick-next-name: 'slick-next';
+$slick-next-x: 0px;
+$slick-next-y: 342px;
+$slick-next-offset-x: 0px;
+$slick-next-offset-y: -342px;
+$slick-next-width: 16px;
+$slick-next-height: 25px;
+$slick-next-total-width: 63px;
+$slick-next-total-height: 633px;
+$slick-next-image: '../images/sprite/sprite.png';
+$slick-next: (0px, 342px, 0px, -342px, 16px, 25px, 63px, 633px, '../images/sprite/sprite.png', 'slick-next', );
+$slick-prev-name: 'slick-prev';
+$slick-prev-x: 0px;
+$slick-prev-y: 377px;
+$slick-prev-offset-x: 0px;
+$slick-prev-offset-y: -377px;
+$slick-prev-width: 16px;
+$slick-prev-height: 25px;
+$slick-prev-total-width: 63px;
+$slick-prev-total-height: 633px;
+$slick-prev-image: '../images/sprite/sprite.png';
+$slick-prev: (0px, 377px, 0px, -377px, 16px, 25px, 63px, 633px, '../images/sprite/sprite.png', 'slick-prev', );
+$ui-slick-next-name: 'ui-slick-next';
+$ui-slick-next-x: 0px;
+$ui-slick-next-y: 56px;
+$ui-slick-next-offset-x: 0px;
+$ui-slick-next-offset-y: -56px;
+$ui-slick-next-width: 37px;
+$ui-slick-next-height: 19px;
+$ui-slick-next-total-width: 63px;
+$ui-slick-next-total-height: 633px;
+$ui-slick-next-image: '../images/sprite/sprite.png';
+$ui-slick-next: (0px, 56px, 0px, -56px, 37px, 19px, 63px, 633px, '../images/sprite/sprite.png', 'ui-slick-next', );
+$ui-slick-prev-name: 'ui-slick-prev';
+$ui-slick-prev-x: 0px;
+$ui-slick-prev-y: 85px;
+$ui-slick-prev-offset-x: 0px;
+$ui-slick-prev-offset-y: -85px;
+$ui-slick-prev-width: 37px;
+$ui-slick-prev-height: 19px;
+$ui-slick-prev-total-width: 63px;
+$ui-slick-prev-total-height: 633px;
+$ui-slick-prev-image: '../images/sprite/sprite.png';
+$ui-slick-prev: (0px, 85px, 0px, -85px, 37px, 19px, 63px, 633px, '../images/sprite/sprite.png', 'ui-slick-prev', );
+$view-grid-name: 'view-grid';
+$view-grid-x: 0px;
+$view-grid-y: 0px;
+$view-grid-offset-x: 0px;
+$view-grid-offset-y: 0px;
+$view-grid-width: 18px;
+$view-grid-height: 18px;
+$view-grid-total-width: 63px;
+$view-grid-total-height: 633px;
+$view-grid-image: '../images/sprite/sprite.png';
+$view-grid: (0px, 0px, 0px, 0px, 18px, 18px, 63px, 633px, '../images/sprite/sprite.png', 'view-grid', );
+$view-list-name: 'view-list';
+$view-list-x: 0px;
+$view-list-y: 28px;
+$view-list-offset-x: 0px;
+$view-list-offset-y: -28px;
+$view-list-width: 22px;
+$view-list-height: 18px;
+$view-list-total-width: 63px;
+$view-list-total-height: 633px;
+$view-list-image: '../images/sprite/sprite.png';
+$view-list: (0px, 28px, 0px, -28px, 22px, 18px, 63px, 633px, '../images/sprite/sprite.png', 'view-list', );
+$youtube-name: 'youtube';
+$youtube-x: 0px;
+$youtube-y: 492px;
+$youtube-offset-x: 0px;
+$youtube-offset-y: -492px;
+$youtube-width: 30px;
+$youtube-height: 30px;
+$youtube-total-width: 63px;
+$youtube-total-height: 633px;
+$youtube-image: '../images/sprite/sprite.png';
+$youtube: (0px, 492px, 0px, -492px, 30px, 30px, 63px, 633px, '../images/sprite/sprite.png', 'youtube', );
+$spritesheet-width: 63px;
+$spritesheet-height: 633px;
+$spritesheet-image: '../images/sprite/sprite.png';
+$spritesheet-sprites: ($arrow-left, $arrow-right, $arrow, $check, $f-mail, $f-phone, $f-pin, $facebook, $insta, $play, $searcher, $slick-next, $slick-prev, $ui-slick-next, $ui-slick-prev, $view-grid, $view-list, $youtube, );
+$spritesheet: (63px, 633px, '../images/sprite/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
